@@ -1,0 +1,35 @@
+.container{
+    background-color: cyan;
+    height:200px;
+    right:0px;
+    left:0px;
+    top:0px;
+    display:flex;
+    position:relative;
+}
+.container div{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.greenbox{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    top: 200px;
+}
+.lilabox{
+    background-color: violet;
+    position:absolute;
+    height: 100px;
+    width:100px;
+    right:0px;
+    bottom:0px;
+}
