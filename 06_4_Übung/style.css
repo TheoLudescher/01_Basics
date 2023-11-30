@@ -15,9 +15,9 @@
   width: 30px;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .greenbox {
   display: flex;

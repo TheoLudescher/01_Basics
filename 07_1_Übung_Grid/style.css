@@ -1,0 +1,31 @@
+.out {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.box1 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  margin: 50px;
+}
+.container_left {
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 150px;
+}
+.box2 {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+.container_right {
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
