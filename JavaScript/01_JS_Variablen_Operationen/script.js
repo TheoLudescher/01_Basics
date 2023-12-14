@@ -1,20 +1,56 @@
 console.log("Hallo");
+
 console.log("Tolle Sache");
 
-// Variablen
+// Variablen
 
 let a = 7;
+
 let b = 8;
-let c = a + b;
 
-console.log("A Hat den Wert " + a);
+let c = 10;
 
-console.log("A Hat den Wert " + a);
+// Berechne folgendes und gib das Eregebnis über console.log aus
 
-console.log("a + b = " + c);
+// a + b + c
 
-//Rechnungsarten
-// *c, /, +, -
+let result1 = a + b + c;
+console.log("Das Ergebnis ist " + result1);
 
-c = b-a;
-console.log("b - a = " + c);
+// (a + b) / c
+
+let result2 = (a + b) / c;
+console.log("Das Ergebnis ist " + result2);
+
+// c -a + b
+
+let result3 = c - a + b;
+console.log("Das Ergebnis ist " + result3);
+
+// a + b + c * 3
+
+let result4 = a + b + c * 3;
+console.log("Das Ergebnis ist " + result4);
+
+// (a + b + c)/4
+
+let result5 = (a + b + c) / 4;
+console.log("Das Ergebnis ist " + result5);
+
+// Ändere die Variablen auf folgende Werte
+
+// a = 3
+
+a = 3;
+
+// b = a + 3
+
+b = a + 3;
+
+// c = c -3
+
+c = c - 3;
+
+// gib die neuen Werte der Variablen aus
+
+console.log(a + "; " + b + "; " + c);
